@@ -69,3 +69,47 @@
         font-size: 5vw;
     }
 }
+
+/* Changed Skills from bars to just Grids */
+
+.skillsTitle {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Responsive grid */
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skillItem img {
+    width: 80px; /* Adjust as needed */
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+
+.skillItem p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.skillItem:hover {
+    transform: scale(1.1);
+}
