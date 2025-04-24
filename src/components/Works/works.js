@@ -52,7 +52,7 @@ const Works = () => {
                     </p>
                     <p className="projectTech">React • AI • CSS</p>
                     <div className="projectLinks">
-                        <a href="https://github.com/pbrar17/ramsai" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        <a href="https://github.com/pbrar17/Chef_RamsAI#" target="_blank" rel="noopener noreferrer">View on GitHub</a>
                         <a href="https://chef-rams-ai.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ const Works = () => {
                     </p>
                     <p className="projectTech">Next.js • JavaScript • API Integration</p>
                     <div className="projectLinks">
-                        <a href="https://github.com/pbrar17/bet" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        <a href="https://github.com/pbrar17/ParlAi" target="_blank" rel="noopener noreferrer">View on GitHub</a>
                         {/* <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a> */}
                     </div>
                 </div>

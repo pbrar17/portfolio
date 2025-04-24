@@ -45,6 +45,12 @@
     border-radius: 2rem;
 }
 
+.desktopMenuBtn:active {
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+
 .desktopMenuImg {
     object-fit: cover;
     height: 1rem;
