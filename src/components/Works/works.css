@@ -59,3 +59,50 @@
         height: 48vw;
     }
 }
+
+/*  */
+
+.worksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.projectCard {
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+.projectTitle {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.projectDesc {
+    margin: 0.5rem 0;
+    color: #ccc;
+}
+
+.projectTech {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.projectLinks a {
+    margin-right: 1rem;
+    color: #00aced;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.worksImg2 {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+}
