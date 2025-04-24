@@ -1,7 +1,7 @@
 import React from 'react';
 import './works.css';
-import Portfolio1 from '../../assets/acmeplex.png';
-import Portfolio2 from '../../assets/ramsai.png';
+import Portfolio1 from '../../assets/acmeplex-ezgif.com-optimize.gif';
+import Portfolio2 from '../../assets/ramsai.gif';
 import Portfolio3 from '../../assets/bet.png';
 import Portfolio4 from '../../assets/byteBuddy.gif';
 
@@ -46,7 +46,7 @@ const Works = () => {
                 {/* Ramsai */}
                 <div className="projectCard">
                     <img src={Portfolio2} alt="Ramsai Project" className="worksImg" />
-                    <h3 className="projectTitle">🍲 Ramsai</h3>
+                    <h3 className="projectTitle">🍲 Chef RamsAi</h3>
                     <p className="projectDesc">
                         A recipe-sharing platform that helps home cooks discover, save, and share their favorite dishes.
                     </p>
