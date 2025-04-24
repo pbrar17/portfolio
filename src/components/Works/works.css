@@ -102,5 +102,7 @@
 
 
 .worksImg2 {
-   
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
 }
